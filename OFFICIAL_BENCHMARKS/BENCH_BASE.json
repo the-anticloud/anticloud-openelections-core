@@ -1,0 +1,1061 @@
+{
+  "schema": "anticloud.tier-bench/1",
+  "project": "OPENELECTIONS_CORE",
+  "source": {
+    "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\GOVERNMENT\\OPENELECTIONS_CORE\\UPSTREAM_CLONE",
+    "git": {
+      "head": "b4be7eb58f51631f48d607c6a781e964e9ef2bd8",
+      "url": "https://github.com/openelections/openelections-core",
+      "branch": "master",
+      "committed_at": "2026-05-20T06:55:31-04:00"
+    }
+  },
+  "metrics": {
+    "files_total": 233,
+    "source_files_scanned": 117,
+    "lines_of_code": 22791,
+    "languages": {
+      ".py": 145,
+      ".csv": 74,
+      "(none)": 4,
+      ".txt": 4,
+      ".md": 3,
+      ".yml": 1,
+      ".lock": 1,
+      ".tmplt": 1
+    }
+  },
+  "licence": {
+    "spdx": "MIT",
+    "class": "A",
+    "source_file": "LICENSE.txt",
+    "redistribution_allowed": true
+  },
+  "dependencies": {
+    "count": 31,
+    "unique": 28,
+    "by_ecosystem": {
+      "pypi": 31
+    },
+    "list": [
+      {
+        "ecosystem": "pypi",
+        "name": "url",
+        "version": "https://pypi.python.org/simple",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "verify_ssl",
+        "version": "true",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "name",
+        "version": "pypi",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "bba4a4a",
+        "version": "{path = ",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "urllib3",
+        "version": ">=1.2.3",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "requests",
+        "version": ">=2.20.0",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "openelections-core",
+        "version": "{path = ",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "mock",
+        "version": "*",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "factory-boy",
+        "version": "==2.4.1",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "nose",
+        "version": "*",
+        "source_file": "Pipfile",
+        "raw": ""
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "beautifulsoup4",
+        "version": "==4.6.0",
+        "source_file": "setup.py",
+        "raw": "beautifulsoup4==4.6.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "blinker",
+        "version": "==1.3",
+        "source_file": "setup.py",
+        "raw": "blinker==1.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ipython",
+        "version": "==0.13.2",
+        "source_file": "setup.py",
+        "raw": "ipython==0.13.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "mongoengine",
+        "version": "==0.9.0",
+        "source_file": "setup.py",
+        "raw": "mongoengine==0.9.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "nameparser",
+        "version": "==0.5.3",
+        "source_file": "setup.py",
+        "raw": "nameparser==0.5.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ordered-set",
+        "version": "==2.0.2",
+        "source_file": "setup.py",
+        "raw": "ordered-set==2.0.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "pymongo",
+        "version": "==2.8",
+        "source_file": "setup.py",
+        "raw": "pymongo==2.8"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "requests",
+        "version": ">=2.20.0",
+        "source_file": "setup.py",
+        "raw": "requests>=2.20.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "unicodecsv",
+        "version": "==0.12.0",
+        "source_file": "setup.py",
+        "raw": "unicodecsv==0.12.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "us",
+        "version": "==1.0.0",
+        "source_file": "setup.py",
+        "raw": "us==1.0.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "xlrd",
+        "version": "==0.9.2",
+        "source_file": "setup.py",
+        "raw": "xlrd==0.9.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "github3.py",
+        "version": "==0.9.0",
+        "source_file": "setup.py",
+        "raw": "github3.py==0.9.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "click",
+        "version": "==3.3",
+        "source_file": "setup.py",
+        "raw": "click==3.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "Clarify",
+        "version": "==0.3",
+        "source_file": "setup.py",
+        "raw": "Clarify==0.3"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "funcsigs",
+        "version": "==1.0.2",
+        "source_file": "setup.py",
+        "raw": "funcsigs==1.0.2"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "ipaddress",
+        "version": "==1.0.18",
+        "source_file": "setup.py",
+        "raw": "ipaddress==1.0.18"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "future",
+        "version": "==0.16.0",
+        "source_file": "setup.py",
+        "raw": "future==0.16.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "mock",
+        "version": "==1.0.1",
+        "source_file": "setup.py",
+        "raw": "mock==1.0.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "nose",
+        "version": "==1.3.0",
+        "source_file": "setup.py",
+        "raw": "nose==1.3.0"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "factory_boy",
+        "version": "==2.4.1",
+        "source_file": "setup.py",
+        "raw": "factory_boy==2.4.1"
+      },
+      {
+        "ecosystem": "pypi",
+        "name": "openelex",
+        "version": "= openelex.tasks:cli",
+        "source_file": "setup.py",
+        "raw": "openelex = openelex.tasks:cli"
+      }
+    ]
+  },
+  "owasp_top10": {
+    "total_findings": 72,
+    "files_with_findings": 58,
+    "severity": {
+      "high": 3,
+      "medium": 13,
+      "low": 56
+    },
+    "categories": {
+      "A01-BrokenAccessControl": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "high",
+            "file": "openelex/api/base.py",
+            "line": 35,
+            "cwe": "CWE-295",
+            "snippet": "response = requests.get(url, params=ordered_params, verify=False)"
+          },
+          {
+            "severity": "high",
+            "file": "openelex/base/fetch.py",
+            "line": 42,
+            "cwe": "CWE-295",
+            "snippet": "r = requests.get(url, verify=False)"
+          }
+        ]
+      },
+      "A02-CryptographicFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A03-Injection": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "openelex/base/publish.py",
+            "line": 113,
+            "cwe": "CWE-89",
+            "snippet": "filename_glob = \"{}\".format(\"__\".join(filename_bits)) + ext"
+          },
+          {
+            "severity": "high",
+            "file": "openelex/tasks/shell.py",
+            "line": 69,
+            "cwe": "CWE-95",
+            "snippet": "exec(compile(handle.read(), pythonrc, 'exec'), imported_objects)"
+          }
+        ]
+      },
+      "A04-InsecureDesign": {
+        "count": 33,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 6,
+            "cwe": "CWE-",
+            "snippet": "# TODO: More informative message about Python version support, version reflected"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/config.py",
+            "line": 68,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Deprecate this"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/models.py",
+            "line": 116,
+            "cwe": "CWE-",
+            "snippet": "#TODO: Validation that requires primary_type to be \"closed\""
+          },
+          {
+            "severity": "low",
+            "file": "openelex/base/bake.py",
+            "line": 78,
+            "cwe": "CWE-",
+            "snippet": "# HACK Exclude flattened fields from the list of output fields."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/base/datasource.py",
+            "line": 400,
+            "cwe": "CWE-",
+            "snippet": "# TODO(geoffhing@gmail.com) Delegate to"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/base/fetch.py",
+            "line": 59,
+            "cwe": "CWE-",
+            "snippet": "#TODO:apply filename standardization logic"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/base/load.py",
+            "line": 87,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Decide if we can remove this."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/tasks/bake.py",
+            "line": 71,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Decide if datefilter should be required due to performance"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/tasks/load.py",
+            "line": 33,
+            "cwe": "CWE-",
+            "snippet": "#TODO: Notify user if there's a mismatch between expected files and"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/__init__.py",
+            "line": 3,
+            "cwe": "CWE-",
+            "snippet": "# This is a pythonpath hack to avoid shadowing third-party"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/fl/load.py",
+            "line": 142,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Figure out how/if suffix is stored"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ga/load.py",
+            "line": 60,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Can this just be called once?"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ga/__init__.py",
+            "line": 3,
+            "cwe": "CWE-",
+            "snippet": "# This is a pythonpath hack to avoid shadowing third-party"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ia/load.py",
+            "line": 26,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Don't skip these.  They're being skipped because the PDF results"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/id/datasource.py",
+            "line": 115,
+            "cwe": "CWE-",
+            "snippet": "# TODO: need to handle multiple files per election"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/md/load.py",
+            "line": 122,
+            "cwe": "CWE-",
+            "snippet": "#TODO: QUESTION: Should semi-closed also have party?"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/md/transform/__init__.py",
+            "line": 112,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Remove this once I'm sure this always works. It should."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/md/validate/__init__.py",
+            "line": 212,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Include precincts if it's not too hard"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ms/__init__.py",
+            "line": 3,
+            "cwe": "CWE-",
+            "snippet": "# This is a pythonpath hack to avoid shadowing third-party"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/nc/load.py",
+            "line": 132,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Can this just be called once?"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/nc/__init__.py",
+            "line": 3,
+            "cwe": "CWE-",
+            "snippet": "# This is a pythonpath hack to avoid shadowing third-party"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/nh/load.py",
+            "line": 54,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Can this just be called once?"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/nv/__init__.py",
+            "line": 3,
+            "cwe": "CWE-",
+            "snippet": "# This is a pythonpath hack to avoid shadowing third-party"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/oh/load.py",
+            "line": 136,
+            "cwe": "CWE-",
+            "snippet": "# TODO: Can this just be called once?"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/sd/__init__.py",
+            "line": 3,
+            "cwe": "CWE-",
+            "snippet": "# This is a pythonpath hack to avoid shadowing third-party"
+          }
+        ]
+      },
+      "A05-SecurityMisconfiguration": {
+        "count": 2,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "openelex/api/base.py",
+            "line": 35,
+            "cwe": "CWE-1188",
+            "snippet": "response = requests.get(url, params=ordered_params, verify=False)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/base/fetch.py",
+            "line": 42,
+            "cwe": "CWE-1188",
+            "snippet": "r = requests.get(url, verify=False)"
+          }
+        ]
+      },
+      "A06-VulnerableComponents": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 22,
+            "cwe": "CWE-1104",
+            "snippet": "'beautifulsoup4==4.6.0',"
+          }
+        ]
+      },
+      "A07-AuthFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A08-SoftwareDataIntegrity": {
+        "count": 22,
+        "findings": [
+          {
+            "severity": "low",
+            "file": "setup.py",
+            "line": 18,
+            "cwe": "CWE-319",
+            "snippet": "url='http://openelections.net',"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/models.py",
+            "line": 97,
+            "cwe": "CWE-319",
+            "snippet": "# See http://stackoverflow.com/a/12248318/386210 and"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/base/datasource.py",
+            "line": 55,
+            "cwe": "CWE-319",
+            "snippet": "Metadata API (http://docs.openelections.net/metadata-api/)."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/base/publish.py",
+            "line": 25,
+            "cwe": "CWE-319",
+            "snippet": "PUBLISH_BASE_URL = \"http://results.openelections.net\""
+          },
+          {
+            "severity": "low",
+            "file": "openelex/lib/__init__.py",
+            "line": 42,
+            "cwe": "CWE-319",
+            "snippet": "http://docs.openelections.net/archive-standardization/."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ar/datasource.py",
+            "line": 17,
+            "cwe": "CWE-319",
+            "snippet": "RESULTS_PORTAL_URL = \"http://www.sos.arkansas.gov/electionresults/index.php\""
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ar/fetch.py",
+            "line": 66,
+            "cwe": "CWE-319",
+            "snippet": "return 'http://www.sos.arkansas.gov/electionresults/index.php?' + qs"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ia/datasource.py",
+            "line": 10,
+            "cwe": "CWE-319",
+            "snippet": "BASE_URL = 'http://sos.iowa.gov/elections'"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/id/datasource.py",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://www.sos.idaho.gov/elect/RESULTS/2012/Primary/12%20Pri_fed_prec.xls"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/il/datasource.py",
+            "line": 8,
+            "cwe": "CWE-319",
+            "snippet": "http://www.elections.il.gov/ElectionInformation/DownloadVoteTotals.aspx"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/md/datasource.py",
+            "line": 29,
+            "cwe": "CWE-319",
+            "snippet": "base_url = \"http://www.elections.state.md.us/elections/%(year)s/election_data/\""
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/md/jurisdiction.py",
+            "line": 282,
+            "cwe": "CWE-319",
+            "snippet": "Source: http://planning.maryland.gov/redistricting/2010/congDist.shtml"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/md/validate/__init__.py",
+            "line": 321,
+            "cwe": "CWE-319",
+            "snippet": "http://www.elections.state.md.us/elections/2008/results/general/index.html"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/nm/datasource.py",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "start with election http://electionresults.sos.state.nm.us/resultsSW.aspx?eid=1&type=FED&map=CTY, then scrape county-level result links."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/oh/datasource.py",
+            "line": 84,
+            "cwe": "CWE-319",
+            "snippet": "return \"http://www.sos.state.oh.us/sos/elections/Research/electResultsMain/%sElectionsResults/%s\" % (year, path)"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/ri/fetch.py",
+            "line": 25,
+            "cwe": "CWE-319",
+            "snippet": "if url.endswith('.zip') and url != 'http://www.elections.ri.gov/publications/Data_Files/PRI2000FEDSTATE.zip':"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/sd/datasource.py",
+            "line": 83,
+            "cwe": "CWE-319",
+            "snippet": "return \"http://www.sos.wv.gov/elections/history/electionreturns/Documents/%s/%s\" % (year, path)"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/va/datasource.py",
+            "line": 4,
+            "cwe": "CWE-319",
+            "snippet": "level results available from http://historical.elections.virginia.gov/."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/va/load.py",
+            "line": 15,
+            "cwe": "CWE-319",
+            "snippet": "http://historical.elections.virginia.gov/elections."
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/vt/datasource.py",
+            "line": 5,
+            "cwe": "CWE-319",
+            "snippet": "http://vtelectionarchive.sec.state.vt.us/elections/download/%election-id%/precincts_include:0/"
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/wa/datasource.py",
+            "line": 137,
+            "cwe": "CWE-319",
+            "snippet": "url_tpl = \"http://vote.wa.gov/results/{}/export/{}_{}.csv\""
+          },
+          {
+            "severity": "low",
+            "file": "openelex/us/wv/datasource.py",
+            "line": 6,
+            "cwe": "CWE-319",
+            "snippet": "http://apps.sos.wv.gov/elections/results/readfile.aspx?path=NC80LVN0YXRlQ291bnR5VG90YWxzLmNzdg=="
+          }
+        ]
+      },
+      "A09-LoggingMonitoringFailures": {
+        "count": 0,
+        "findings": []
+      },
+      "A10-SSRF": {
+        "count": 10,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "openelex/tasks/fetch.py",
+            "line": 38,
+            "cwe": "CWE-918",
+            "snippet": "fetcher.fetch(url, std_filename)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/ar/fetch.py",
+            "line": 36,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/fl/fetch.py",
+            "line": 32,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/ga/fetch.py",
+            "line": 31,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/nc/fetch.py",
+            "line": 32,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/ri/fetch.py",
+            "line": 28,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/sc/fetch.py",
+            "line": 29,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/vt/datasource.py",
+            "line": 145,
+            "cwe": "CWE-918",
+            "snippet": "response = urllib.request.urlopen(search_url)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/wa/fetch.py",
+            "line": 30,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          },
+          {
+            "severity": "medium",
+            "file": "openelex/us/wy/fetch.py",
+            "line": 32,
+            "cwe": "CWE-918",
+            "snippet": "super(FetchResults, self).fetch(url, zip_fname, overwrite)"
+          }
+        ]
+      }
+    }
+  },
+  "owasp_llm_top10": {
+    "total_findings": 1,
+    "files_with_findings": 1,
+    "severity": {
+      "high": 0,
+      "medium": 1,
+      "low": 0
+    },
+    "categories": {
+      "LLM01-PromptInjection": {
+        "count": 1,
+        "findings": [
+          {
+            "severity": "medium",
+            "file": "openelex/us/vt/datasource.py",
+            "line": 140,
+            "cwe": "CWE-1336",
+            "snippet": "return Template(self.electionViewUrl).substitute(electionId=elecId, isPrecinct=(1 if isPrecinct else 0))"
+          }
+        ]
+      },
+      "LLM02-SensitiveInfoDisclosure": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM03-SupplyChain": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM04-DataPoisoning": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM05-ImproperOutputHandling": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM06-ExcessiveAgency": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM07-SystemPromptLeak": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM08-VectorEmbeddingWeaknesses": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM09-Misinformation": {
+        "count": 0,
+        "findings": []
+      },
+      "LLM10-UnboundedConsumption": {
+        "count": 0,
+        "findings": []
+      }
+    }
+  },
+  "sbom": {
+    "bomFormat": "CycloneDX",
+    "specVersion": "1.5",
+    "serialNumber": "urn:uuid:f58f6bda-8207-51c1-8502-ed34cf7fd072",
+    "version": 1,
+    "metadata": {
+      "timestamp": "2026-10-05T16:23:40Z",
+      "component": {
+        "type": "application",
+        "name": "OPENELECTIONS_CORE",
+        "version": "b4be7eb58f51",
+        "bom-ref": "pkg:generic/anticloud/OPENELECTIONS_CORE@b4be7eb58f51",
+        "purl": "pkg:generic/anticloud/OPENELECTIONS_CORE@b4be7eb58f51",
+        "licenses": [
+          {
+            "license": {
+              "id": "MIT"
+            }
+          }
+        ]
+      },
+      "properties": [
+        {
+          "name": "anticloud:source-commit",
+          "value": "b4be7eb58f51631f48d607c6a781e964e9ef2bd8"
+        },
+        {
+          "name": "anticloud:source-url",
+          "value": "https://github.com/openelections/openelections-core"
+        },
+        {
+          "name": "anticloud:tier",
+          "value": "tier-agent"
+        }
+      ]
+    },
+    "components": [
+      {
+        "type": "library",
+        "name": "url",
+        "version": "https://pypi.python.org/simple",
+        "purl": "pkg:pypi/url@https://pypi.python.org/simple",
+        "bom-ref": "pypi/url@https://pypi.python.org/simple"
+      },
+      {
+        "type": "library",
+        "name": "verify_ssl",
+        "version": "true",
+        "purl": "pkg:pypi/verify-ssl@true",
+        "bom-ref": "pypi/verify_ssl@true"
+      },
+      {
+        "type": "library",
+        "name": "name",
+        "version": "pypi",
+        "purl": "pkg:pypi/name@pypi",
+        "bom-ref": "pypi/name@pypi"
+      },
+      {
+        "type": "library",
+        "name": "bba4a4a",
+        "version": "{path = ",
+        "purl": "pkg:pypi/bba4a4a@{path = ",
+        "bom-ref": "pypi/bba4a4a@{path = "
+      },
+      {
+        "type": "library",
+        "name": "urllib3",
+        "version": ">=1.2.3",
+        "purl": "pkg:pypi/urllib3@1.2.3",
+        "bom-ref": "pypi/urllib3@>=1.2.3"
+      },
+      {
+        "type": "library",
+        "name": "requests",
+        "version": ">=2.20.0",
+        "purl": "pkg:pypi/requests@2.20.0",
+        "bom-ref": "pypi/requests@>=2.20.0"
+      },
+      {
+        "type": "library",
+        "name": "openelections-core",
+        "version": "{path = ",
+        "purl": "pkg:pypi/openelections-core@{path = ",
+        "bom-ref": "pypi/openelections-core@{path = "
+      },
+      {
+        "type": "library",
+        "name": "mock",
+        "version": "*",
+        "purl": "pkg:pypi/mock@*",
+        "bom-ref": "pypi/mock@*"
+      },
+      {
+        "type": "library",
+        "name": "factory-boy",
+        "version": "==2.4.1",
+        "purl": "pkg:pypi/factory-boy@2.4.1",
+        "bom-ref": "pypi/factory-boy@==2.4.1"
+      },
+      {
+        "type": "library",
+        "name": "nose",
+        "version": "*",
+        "purl": "pkg:pypi/nose@*",
+        "bom-ref": "pypi/nose@*"
+      },
+      {
+        "type": "library",
+        "name": "beautifulsoup4",
+        "version": "==4.6.0",
+        "purl": "pkg:pypi/beautifulsoup4@4.6.0",
+        "bom-ref": "pypi/beautifulsoup4@==4.6.0"
+      },
+      {
+        "type": "library",
+        "name": "blinker",
+        "version": "==1.3",
+        "purl": "pkg:pypi/blinker@1.3",
+        "bom-ref": "pypi/blinker@==1.3"
+      },
+      {
+        "type": "library",
+        "name": "ipython",
+        "version": "==0.13.2",
+        "purl": "pkg:pypi/ipython@0.13.2",
+        "bom-ref": "pypi/ipython@==0.13.2"
+      },
+      {
+        "type": "library",
+        "name": "mongoengine",
+        "version": "==0.9.0",
+        "purl": "pkg:pypi/mongoengine@0.9.0",
+        "bom-ref": "pypi/mongoengine@==0.9.0"
+      },
+      {
+        "type": "library",
+        "name": "nameparser",
+        "version": "==0.5.3",
+        "purl": "pkg:pypi/nameparser@0.5.3",
+        "bom-ref": "pypi/nameparser@==0.5.3"
+      },
+      {
+        "type": "library",
+        "name": "ordered-set",
+        "version": "==2.0.2",
+        "purl": "pkg:pypi/ordered-set@2.0.2",
+        "bom-ref": "pypi/ordered-set@==2.0.2"
+      },
+      {
+        "type": "library",
+        "name": "pymongo",
+        "version": "==2.8",
+        "purl": "pkg:pypi/pymongo@2.8",
+        "bom-ref": "pypi/pymongo@==2.8"
+      },
+      {
+        "type": "library",
+        "name": "unicodecsv",
+        "version": "==0.12.0",
+        "purl": "pkg:pypi/unicodecsv@0.12.0",
+        "bom-ref": "pypi/unicodecsv@==0.12.0"
+      },
+      {
+        "type": "library",
+        "name": "us",
+        "version": "==1.0.0",
+        "purl": "pkg:pypi/us@1.0.0",
+        "bom-ref": "pypi/us@==1.0.0"
+      },
+      {
+        "type": "library",
+        "name": "xlrd",
+        "version": "==0.9.2",
+        "purl": "pkg:pypi/xlrd@0.9.2",
+        "bom-ref": "pypi/xlrd@==0.9.2"
+      },
+      {
+        "type": "library",
+        "name": "github3.py",
+        "version": "==0.9.0",
+        "purl": "pkg:pypi/github3.py@0.9.0",
+        "bom-ref": "pypi/github3.py@==0.9.0"
+      },
+      {
+        "type": "library",
+        "name": "click",
+        "version": "==3.3",
+        "purl": "pkg:pypi/click@3.3",
+        "bom-ref": "pypi/click@==3.3"
+      },
+      {
+        "type": "library",
+        "name": "Clarify",
+        "version": "==0.3",
+        "purl": "pkg:pypi/clarify@0.3",
+        "bom-ref": "pypi/Clarify@==0.3"
+      },
+      {
+        "type": "library",
+        "name": "funcsigs",
+        "version": "==1.0.2",
+        "purl": "pkg:pypi/funcsigs@1.0.2",
+        "bom-ref": "pypi/funcsigs@==1.0.2"
+      },
+      {
+        "type": "library",
+        "name": "ipaddress",
+        "version": "==1.0.18",
+        "purl": "pkg:pypi/ipaddress@1.0.18",
+        "bom-ref": "pypi/ipaddress@==1.0.18"
+      },
+      {
+        "type": "library",
+        "name": "future",
+        "version": "==0.16.0",
+        "purl": "pkg:pypi/future@0.16.0",
+        "bom-ref": "pypi/future@==0.16.0"
+      },
+      {
+        "type": "library",
+        "name": "factory_boy",
+        "version": "==2.4.1",
+        "purl": "pkg:pypi/factory-boy@2.4.1",
+        "bom-ref": "pypi/factory_boy@==2.4.1"
+      },
+      {
+        "type": "library",
+        "name": "openelex",
+        "version": "= openelex.tasks:cli",
+        "purl": "pkg:pypi/openelex@openelex.tasks:cli",
+        "bom-ref": "pypi/openelex@= openelex.tasks:cli"
+      }
+    ]
+  },
+  "elapsed_seconds": 75.77
+}
